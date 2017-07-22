@@ -1,0 +1,17 @@
+---
+kind: "operation"
+client: "com.atomist:rug"
+version: "1.0.0-20170715141010"
+generator:
+  name: "NewSpringBootRestService"
+  group: "atomist"
+  artifact: "spring-rugs"
+  version: "0.13.3"
+  parameters:
+    - "artifactId": "myartifact"
+    - "groupId": "mygroup"
+    - "version": "0.1.0-SNAPSHOT"
+    - "description": "my new project"
+    - "rootPackage": "com.myorg"
+    - "serviceClassName": "Test"
+
